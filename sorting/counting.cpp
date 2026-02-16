@@ -4,7 +4,7 @@
 using namespace std;
 void countsort(int arr[],int n)
 { 
-    // find the maximum element
+   
     int maxval =0;
     for(int i =0 ;i<n;i++)
     {
