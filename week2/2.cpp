@@ -7,7 +7,7 @@ void index(int arr[],int n ,int key)
      int j = 0;
      while( i<j)
      {
-          int temp
+          int temp;
      }
 }
 int main()
