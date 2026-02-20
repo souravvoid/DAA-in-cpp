@@ -1,0 +1,2 @@
+toplogical is linear ordering of garph in which there exit a edges 
+u to v then for the ordering  u come before b on directed graph 
