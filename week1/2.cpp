@@ -1,7 +1,6 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-
 int binarySearch(vector<int> &arr, int x) {
     int low = 0;
     int high = arr.size() - 1;
