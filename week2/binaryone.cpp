@@ -1,7 +1,6 @@
 #include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
-
-
 int firstOcc(int arr[], int n, int key)
 {
     int s = 0, e = n - 1;
@@ -44,9 +43,6 @@ int lastOcc(int arr[], int n, int key)
     }
     return ans;
 }
-
-
-
 int main()
 {
     int testcases;
@@ -55,9 +51,11 @@ int main()
     while(testcases--)
     {
     int n;
+    cout<<"Emter the value for n :";
     cin >> n;
 
     int arr[n];
+    cout<<"enter the element for array:";
     for(int i = 0; i < n; i++)
     {
           cin >> arr[i];
@@ -65,12 +63,9 @@ int main()
 
     int key;
     cout<<"Enter the key:";
-    cin>>key;
-    
-
+    cin>>key; 
         int first = firstOcc(arr, n, key);
         int last = lastOcc(arr, n, key);
-
         int count = last - first + 1;
         cout << key << " appears " << count << " times" << endl;
 }
